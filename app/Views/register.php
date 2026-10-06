@@ -1,5 +1,4 @@
 <?= $this->extend('layout') ?> 
-
 <?= $this->section('content') ?> 
  
 <!-- Page Header --> 
@@ -28,9 +27,7 @@ benefits</p>
         <div class="row g-4 mb-5"> 
             <div class="col-lg-3 col-md-6"> 
                 <div class="card h-100 text-center p-4 feature-item"> 
-                    <div class="feature-icon"> 
-
-                        <i class="fas fa-calendar-check"></i> 
+                    <div class="feature-icon"><i class="fas fa-calendar-check"></i> 
                     </div> 
                     <h5 class="text-primary-custom mb-2">Priority Scheduling</h5> 
                     <p class="text-muted small">Get priority booking for all electrical services and 
@@ -60,8 +57,7 @@ records</p>
             <div class="col-lg-3 col-md-6"> 
                 <div class="card h-100 text-center p-4 feature-item"> 
                     <div class="feature-icon"> 
-
-                        <i class="fas fa-headset"></i> 
+    <i class="fas fa-headset"></i> 
                     </div> 
                     <h5 class="text-primary-custom mb-2">24/7 Support</h5> 
                     <p class="text-muted small">Dedicated customer support and emergency 
@@ -89,10 +85,7 @@ assistance</p>
                                 <i class="fas fa-check-circle me-2"></i><?= $success ?> 
                                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button> 
                             </div> 
-                        <?php endif; ?> 
-
-                         
-                        <?php if (isset($error) && $error): ?> 
+                        <?php endif; ?> <?php if (isset($error) && $error): ?> 
                             <div class="alert alert-danger alert-dismissible fade show" role="alert"> 
                                 <i class="fas fa-exclamation-circle me-2"></i><?= $error ?> 
                                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button> 
@@ -119,9 +112,7 @@ required>
                                         <?php endif; ?> 
                                     </div> 
                                     <div class="col-md-6"> 
-                                        <label for="last_name" class="form-label fw-semibold">Last Name *</label> 
-
-                                        <input type="text" class="form-control form-control-lg <?= 
+                                        <label for="last_name" class="form-label fw-semibold">Last Name *</label>    <input type="text" class="form-control form-control-lg <?= 
 isset($validation['last_name']) ? 'is-invalid' : '' ?>"  
                                                id="last_name" name="last_name" value="<?= old('last_name') ?>" 
 required> 
@@ -150,9 +141,7 @@ isset($validation['phone']) ? 'is-invalid' : '' ?>"
                                 </div> 
                             </div> 
                              
-                            <!-- Address Information --> 
-
-                            <div class="mb-4"> 
+                            <!-- Address Information -->    <div class="mb-4"> 
                                 <h4 class="text-primary-custom mb-3"> 
                                     <i class="fas fa-map-marker-alt me-2"></i>Address Information 
                                 </h4> 
@@ -181,9 +170,7 @@ isset($validation['city']) ? 'is-invalid' : '' ?>"
                                         <select class="form-select form-select-lg <?= isset($validation['state']) ? 'is
 invalid' : '' ?>"  
                                                 id="state" name="state" required> 
-                                            <option value="">Select State...</option> 
-
-                                            <option value="AL" <?= old('state') == 'AL' ? 'selected' : '' ?>>Alabama</option> 
+                                            <option value="">Select State...</option>  <option value="AL" <?= old('state') == 'AL' ? 'selected' : '' ?>>Alabama</option> 
                                             <option value="AK" <?= old('state') == 'AK' ? 'selected' : '' ?>>Alaska</option> 
                                             <option value="AZ" <?= old('state') == 'AZ' ? 'selected' : '' ?>>Arizona</option> 
                                             <option value="AR" <?= old('state') == 'AR' ? 'selected' : '' 
@@ -214,8 +201,7 @@ isset($validation['zip_code']) ? 'is-invalid' : '' ?>"
                                             <div class="invalid-feedback"><?= $validation['zip_code'] ?></div> 
                                         <?php endif; ?> 
                                     </div> 
-
-                                </div> 
+   </div> 
                             </div> 
                              
                             <!-- Account Security --> 
@@ -245,8 +231,7 @@ isset($validation['confirm_password']) ? 'is-invalid' : '' ?>"
                                         <?php endif; ?> 
                                     </div> 
                                 </div> 
-
-                            </div> 
+      </div> 
                              
                             <!-- Terms and Conditions --> 
                             <div class="mb-4"> 
@@ -274,14 +259,18 @@ name="newsletter">
                             <div class="text-center"> 
                                 <button type="submit" class="btn btn-primary btn-lg px-5"> 
                                     <i class="fas fa-user-plus me-2"></i>Create Account 
-                                </button> 
-
-                            </div> 
+                                </button>  </div> 
                         </form> 
                          
                         <div class="text-center mt-4"> 
-                            <p class="text-muted">Already have an account? <a href="<?= base_url('contact') ?>" 
-class="text-primary-custom fw-semibold">Contact us</a> for assistance.</p> 
+                            <<p class="text-muted">
+    Already have an account?
+
+    <a href="<?= base_url('login') ?>"
+       class="text-primary-custom fw-semibold">
+        Login here
+    </a>
+</p>
                         </div> 
                     </div> 
                 </div> 
@@ -304,9 +293,7 @@ security measures to protect your personal information.</p>
                             <i class="fas fa-shield-alt text-success mb-3" style="font-size: 3rem;"></i> 
                             <h5 class="text-primary-custom">SSL Encryption</h5> 
                             <p class="text-muted small">All data is encrypted using 256-bit SSL security</p> 
-                        </div> 
-
-                    </div> 
+                        </div>  </div> 
                     <div class="col-md-4"> 
                         <div class="security-item"> 
                             <i class="fas fa-user-shield text-success mb-3" style="font-size: 3rem;"></i> 
@@ -333,10 +320,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('registerForm'); 
     const submitBtn = form.querySelector('button[type="submit"]'); 
     const password = document.getElementById('password'); 
-    const confirmPassword = document.getElementById('confirm_password'); 
-     
-
-    // Password matching validation 
+    const confirmPassword = document.getElementById('confirm_password');  // Password matching validation 
     confirmPassword.addEventListener('input', function() { 
         if (password.value !== confirmPassword.value) { 
             confirmPassword.setCustomValidity('Passwords do not match'); 
@@ -364,9 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (value.length > 5) { 
             value = value.replace(/(\d{5})(\d{0,4})/, '$1-$2'); 
         } 
-        e.target.value = value; 
-
-    }); 
+        e.target.value = value;    }); 
      
     // Form submission 
     form.addEventListener('submit', function(e) { 
@@ -376,4 +358,4 @@ document.addEventListener('DOMContentLoaded', function() {
 }); 
 </script> 
  
-<?= $this->endSection() ?> 
+<?= $this->endSection() ?>

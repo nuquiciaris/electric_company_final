@@ -18,9 +18,7 @@ years.</p>
             </div> 
             <div class="col-lg-6 text-center"> 
                 <div class="hero-image mt-5 mt-lg-0"> 
-                    <i class="fas fa-bolt" style="font-size: 15rem; color: rgba(255,255,255,0.1);"></i> 
-
-                </div> 
+                    <i class="fas fa-bolt" style="font-size: 15rem; color: rgba(255,255,255,0.1);"></i>       </div> 
             </div> 
         </div> 
     </div> 
@@ -49,9 +47,7 @@ coverage for your peace of mind and protection.</p>
                 </div> 
             </div> 
             <div class="col-lg-4 col-md-6"> 
-                <div class="card h-100 text-center p-4 feature-item"> 
-
-                    <div class="feature-icon"> 
+                <div class="card h-100 text-center p-4 feature-item">   <div class="feature-icon"> 
                         <i class="fas fa-clock"></i> 
                     </div> 
                     <h4 class="text-primary-custom mb-3">24/7 Emergency Service</h4> 
@@ -80,9 +76,7 @@ high-quality electrical work.</p>
                 </div> 
             </div> 
             <div class="col-lg-4 col-md-6"> 
-                <div class="card h-100 text-center p-4 feature-item"> 
-
-                    <div class="feature-icon"> 
+                <div class="card h-100 text-center p-4 feature-item">  <div class="feature-icon"> 
                         <i class="fas fa-leaf"></i> 
                     </div> 
                     <h4 class="text-primary-custom mb-3">Eco-Friendly Solutions</h4> 
@@ -111,9 +105,7 @@ warranties for your investment.</p>
             <div class="col-lg-8 mx-auto"> 
                 <h2 class="display-5 fw-bold text-primary-custom mb-3">Our Core Services</h2> 
                 <p class="lead text-muted">From simple repairs to complex installations, we handle all 
-your electrical needs with precision and care.</p> 
-
-            </div> 
+your electrical needs with precision and care.</p>  </div> 
         </div> 
         <div class="row g-4"> 
             <div class="col-lg-6"> 
@@ -141,9 +133,7 @@ panel upgrades, outlet installation, and smart home automation.</p>
                             </div> 
                         </div> 
                         <div class="col-md-9"> 
-                            <h4 class="text-primary-custom mb-2">Commercial Services</h4> 
-
-                            <p class="text-muted mb-0">Professional commercial electrical installations, 
+                            <h4 class="text-primary-custom mb-2">Commercial Services</h4> <p class="text-muted mb-0">Professional commercial electrical installations, 
 maintenance, and emergency repairs for businesses of all sizes.</p> 
                         </div> 
                     </div> 
@@ -171,9 +161,7 @@ installation, battery storage, and energy management systems.</p>
                         <div class="col-md-3 text-center"> 
                             <div class="feature-icon mx-0"> 
                                 <i class="fas fa-exclamation-triangle"></i> 
-                            </div> 
-
-                        </div> 
+                            </div>      </div> 
                         <div class="col-md-9"> 
                             <h4 class="text-primary-custom mb-2">Emergency Repairs</h4> 
                             <p class="text-muted mb-0">24/7 emergency electrical repair services for power 
@@ -201,9 +189,7 @@ outages, electrical faults, and safety hazards.</p>
             </div> 
             <div class="col-lg-3 col-md-6 mb-4"> 
                 <div class="stat-item"> 
-                    <h2 class="display-4 fw-bold text-secondary-custom mb-2">25+</h2> 
-
-                    <p class="lead mb-0">Years Experience</p> 
+                    <h2 class="display-4 fw-bold text-secondary-custom mb-2">25+</h2> <p class="lead mb-0">Years Experience</p> 
                 </div> 
             </div> 
             <div class="col-lg-3 col-md-6 mb-4"> 
@@ -233,8 +219,7 @@ Project?</h2>
 needs. Our expert team is ready to help you with safe, reliable, and efficient electrical 
 solutions.</p> 
             </div> 
-
-            <div class="col-lg-4 text-lg-end"> 
+   <div class="col-lg-4 text-lg-end"> 
                 <a href="<?= base_url('contact') ?>" class="btn btn-primary btn-lg me-3">Get Free 
 Quote</a> 
                 <a href="tel:5551234567" class="btn btn-outline-primary btn-lg"> 
@@ -244,5 +229,4 @@ Quote</a>
         </div> 
     </div> 
 </section> 
- 
-<?= $this->endSection() ?> 
+<?= $this->endSection() ?>

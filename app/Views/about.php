@@ -12,9 +12,7 @@
 25 years</p> 
             </div> 
         </div> 
-    </div> 
-
-</section> 
+    </div></section> 
  
 <!-- Company Story Section --> 
 <section class="section-padding"> 
@@ -31,8 +29,7 @@ commitment to excellence, continuous learning, and customer satisfaction has bee
 force behind our success.</p> 
                 <p class="mb-4">Today, Puihaha Electric stands as a testament to the power of hard work, 
 dedication, and unwavering commitment to quality. We've built our reputation one project at a 
-time, always putting safety and customer satisfaction first.</p> 
-            </div> 
+time, always putting safety and customer satisfaction first.</p>   </div> 
             <div class="col-lg-6"> 
                 <div class="card border-0 shadow-lg"> 
                     <div class="card-body p-5 text-center"> 
@@ -46,8 +43,7 @@ delivering excellence in every project we undertake.</p>
                 </div> 
             </div> 
         </div> 
-
-    </div> 
+   </div> 
 </section> 
  
 <!-- Mission, Vision, Values Section --> 
@@ -75,9 +71,7 @@ community.</p>
                 <div class="card h-100 text-center p-4 feature-item"> 
                     <div class="feature-icon"> 
                         <i class="fas fa-eye"></i> 
-                    </div> 
- 
-                    <h4 class="text-primary-custom mb-3">Our Vision</h4> 
+                    </div> <h4 class="text-primary-custom mb-3">Our Vision</h4> 
                     <p class="text-muted">To be the leading electrical contractor in the region, recognized for 
 our expertise, integrity, and commitment to advancing sustainable energy solutions.</p> 
                 </div> 
@@ -107,8 +101,7 @@ electrical services</p>
             </div> 
         </div> 
         <div class="row g-4"> 
-
-            <div class="col-lg-4 col-md-6"> 
+<div class="col-lg-4 col-md-6"> 
                 <div class="card h-100 text-center p-4 feature-item"> 
                     <div class="team-photo mb-4"> 
                         <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center 
@@ -138,9 +131,7 @@ meets our high standards. She brings 15 years of project management experience a
 degree in Electrical Engineering.</p> 
                 </div> 
             </div> 
-            <div class="col-lg-4 col-md-6"> 
-
-                <div class="card h-100 text-center p-4 feature-item"> 
+            <div class="col-lg-4 col-md-6"> <div class="card h-100 text-center p-4 feature-item"> 
                     <div class="team-photo mb-4"> 
                         <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center 
 mx-auto" style="width: 120px; height: 120px;"> 
@@ -170,9 +161,7 @@ and oversees quality assurance processes.</p>
                 </div> 
             </div> 
             <div class="col-lg-4 col-md-6"> 
-                <div class="card h-100 text-center p-4 feature-item"> 
- 
-                    <div class="team-photo mb-4"> 
+                <div class="card h-100 text-center p-4 feature-item"> <div class="team-photo mb-4"> 
                         <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center 
 mx-auto" style="width: 120px; height: 120px;"> 
                             <i class="fas fa-user text-white" style="font-size: 3rem;"></i> 
@@ -202,10 +191,7 @@ energy efficiency consulting.</p>
             </div> 
         </div> 
     </div> 
-</section> 
-
- 
-<!-- Certifications & Awards Section --> 
+</section><!-- Certifications & Awards Section --> 
 <section class="section-padding bg-light-custom"> 
     <div class="container"> 
         <div class="row text-center mb-5"> 
@@ -232,9 +218,7 @@ insurance coverage</p>
                     <div class="feature-icon"> 
                         <i class="fas fa-star"></i> 
                     </div> 
-                    <h5 class="text-primary-custom mb-2">Better Business Bureau A+</h5> 
-
-                    <p class="text-muted small">Accredited business with A+ rating for outstanding 
+                    <h5 class="text-primary-custom mb-2">Better Business Bureau A+</h5>     <p class="text-muted small">Accredited business with A+ rating for outstanding 
 customer service</p> 
                 </div> 
             </div> 
@@ -264,7 +248,6 @@ Service Award</p>
  
 <!-- Company Timeline --> 
 <section class="section-padding"> 
- 
     <div class="container"> 
         <div class="row text-center mb-5"> 
             <div class="col-lg-8 mx-auto"> 
@@ -293,9 +276,7 @@ Electric as a residential electrical service provider</p>
                             </div> 
                         </div> 
                     </div> 
-                    <div class="timeline-item mb-4"> 
-
-                        <div class="row align-items-center"> 
+                    <div class="timeline-item mb-4"> <div class="row align-items-center"> 
                             <div class="col-md-3 text-md-end"> 
                                 <h4 class="text-secondary-custom fw-bold">2005</h4> 
                             </div> 
@@ -324,8 +305,7 @@ industrial electrical installations</p>
                             <div class="col-md-8"> 
                                 <div class="card p-3"> 
                                     <h5 class="text-primary-custom mb-2">Green Energy Initiative</h5> 
-
-                                    <p class="text-muted mb-0">Launched solar installation services and renewable 
+<p class="text-muted mb-0">Launched solar installation services and renewable 
 energy solutions</p> 
                                 </div> 
                             </div> 
@@ -354,9 +334,7 @@ electrical solutions department</p>
                             <div class="col-md-3 text-md-end"> 
                                 <h4 class="text-secondary-custom fw-bold">2024</h4> 
                             </div> 
-                            <div class="col-md-1 text-center"> 
- 
-                                <div class="timeline-dot bg-secondary-custom rounded-circle" style="width: 20px; 
+                            <div class="col-md-1 text-center">  <div class="timeline-dot bg-secondary-custom rounded-circle" style="width: 20px; 
 height: 20px;"></div> 
                             </div> 
                             <div class="col-md-8"> 
@@ -386,8 +364,7 @@ needs.</p>
                 <div class="d-flex flex-wrap justify-content-center gap-3"> 
                     <a href="<?= base_url('contact') ?>" class="btn btn-secondary btn-lg">Get Free 
 Quote</a> 
-
-                    <a href="<?= base_url('services') ?>" class="btn btn-outline-light btn-lg">Our 
+    <a href="<?= base_url('services') ?>" class="btn btn-outline-light btn-lg">Our 
 Services</a> 
                 </div> 
             </div> 
@@ -395,4 +372,4 @@ Services</a>
     </div> 
 </section> 
  
-<?= $this->endSection() ?> 
+<?= $this->endSection() ?>

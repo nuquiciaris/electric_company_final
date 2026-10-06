@@ -15,9 +15,7 @@ to help 24/7.</p>
     </div> 
 </section> 
  
-<!-- Contact Information --> 
-
-<section class="section-padding"> 
+<!-- Contact Information --><section class="section-padding"> 
     <div class="container"> 
         <div class="row g-4 mb-5"> 
             <div class="col-lg-3 col-md-6"> 
@@ -45,9 +43,7 @@ States</p>
                     <div class="feature-icon"> 
                         <i class="fas fa-envelope"></i> 
                     </div> 
-                    <h4 class="text-primary-custom mb-3">Email Us</h4> 
- 
-                    <p class="text-muted mb
+                    <h4 class="text-primary-custom mb-3">Email Us</h4>  <p class="text-muted mb
 2"><strong>General:</strong><br>info@Puihahaelectric.com</p> 
                     <p class="text-muted mb
 0"><strong>Emergency:</strong><br>emergency@Puihahaelectric.com</p> 
@@ -75,9 +71,7 @@ States</p>
             <div class="col-lg-8 mx-auto"> 
                 <div class="card shadow-lg border-0"> 
                     <div class="card-body p-5"> 
-                        <div class="text-center mb-4"> 
-
-                            <h2 class="display-6 fw-bold text-primary-custom mb-3">Get Your Free Quote</h2> 
+                        <div class="text-center mb-4">  <h2 class="display-6 fw-bold text-primary-custom mb-3">Get Your Free Quote</h2> 
                             <p class="lead text-muted">Fill out the form below and we'll get back to you within 24 
 hours with a detailed quote for your project.</p> 
                         </div> 
@@ -105,9 +99,7 @@ hours with a detailed quote for your project.</p>
                                     <input type="text" class="form-control form-control-lg <?= 
 isset($validation['name']) ? 'is-invalid' : '' ?>"  
                                            id="name" name="name" value="<?= old('name') ?>" required> 
-                                    <?php if (isset($validation['name'])): ?> 
- 
-                                        <div class="invalid-feedback"><?= $validation['name'] ?></div> 
+                                    <?php if (isset($validation['name'])): ?>         <div class="invalid-feedback"><?= $validation['name'] ?></div> 
                                     <?php endif; ?> 
                                 </div> 
                                 <div class="col-md-6"> 
@@ -135,9 +127,7 @@ isset($validation['phone']) ? 'is-invalid' : '' ?>"
                                             id="service_type" name="service_type" required> 
                                         <option value="">Select a service...</option> 
                                         <option value="residential_wiring" <?= old('service_type') == 'residential_wiring' 
-? 'selected' : '' ?>>Residential Wiring</option> 
-
-                                        <option value="commercial_electrical" <?= old('service_type') == 
+? 'selected' : '' ?>>Residential Wiring</option>    <option value="commercial_electrical" <?= old('service_type') == 
 'commercial_electrical' ? 'selected' : '' ?>>Commercial Electrical</option> 
                                         <option value="panel_upgrade" <?= old('service_type') == 'panel_upgrade' ? 
 'selected' : '' ?>>Panel Upgrade</option> 
@@ -168,9 +158,7 @@ isset($validation['phone']) ? 'is-invalid' : '' ?>"
 timeline, and any specific requirements..." required><?= old('message') ?></textarea> 
                                     <?php if (isset($validation['message'])): ?> 
                                         <div class="invalid-feedback"><?= $validation['message'] ?></div> 
-                                    <?php endif; ?> 
-
-                                </div> 
+                                    <?php endif; ?>    </div> 
                                 <div class="col-12"> 
                                     <div class="form-check"> 
                                         <input class="form-check-input" type="checkbox" id="consent" required> 
@@ -198,9 +186,7 @@ understand that my information will be kept confidential.
 <section class="section-padding bg-danger text-white"> 
     <div class="container"> 
         <div class="row text-center"> 
-            <div class="col-lg-8 mx-auto"> 
- 
-                <h2 class="display-5 fw-bold mb-4"> 
+            <div class="col-lg-8 mx-auto">  <h2 class="display-5 fw-bold mb-4"> 
                     <i class="fas fa-exclamation-triangle text-warning me-3"></i>Electrical Emergency? 
                 </h2> 
                 <p class="lead mb-4">Don't wait! Electrical emergencies can be dangerous. Call our 24/7 
@@ -229,9 +215,7 @@ emergencies</small></p>
             <div class="col-lg-8 mx-auto"> 
                 <h2 class="display-5 fw-bold text-primary-custom mb-3">Service Areas</h2> 
                 <p class="lead text-muted">We proudly serve the following areas with professional 
-electrical services</p> 
-
-            </div> 
+electrical services</p>   </div> 
         </div> 
         <div class="row g-4"> 
             <div class="col-lg-4 col-md-6"> 
@@ -259,9 +243,7 @@ electrical services</p>
                         <li>Family Fields</li> 
                         <li>Suburban Springs</li> 
                         <li>Neighborhood Nook</li> 
-                    </ul> 
-
-                </div> 
+                    </ul>       </div> 
             </div> 
             <div class="col-lg-4 col-md-6"> 
                 <div class="card h-100 text-center p-4 feature-item"> 
@@ -289,9 +271,7 @@ primary-custom fw-semibold">Contact us</a> to check if we service your location.
 <section class="section-padding bg-light-custom"> 
     <div class="container"> 
         <div class="row text-center mb-4"> 
-            <div class="col-lg-8 mx-auto"> 
-
-                <h2 class="display-5 fw-bold text-primary-custom mb-3">Find Us</h2> 
+            <div class="col-lg-8 mx-auto">       <h2 class="display-5 fw-bold text-primary-custom mb-3">Find Us</h2> 
                 <p class="lead text-muted">Visit our office or call to schedule an on-site consultation</p> 
             </div> 
         </div> 
@@ -319,9 +299,7 @@ style="height: 400px;">
 </section> 
  
 <script> 
-document.addEventListener('DOMContentLoaded', function() { 
-
-    // Form validation 
+document.addEventListener('DOMContentLoaded', function() { // Form validation 
     const form = document.getElementById('contactForm'); 
     const submitBtn = form.querySelector('button[type="submit"]'); 
      
@@ -345,4 +323,4 @@ document.addEventListener('DOMContentLoaded', function() {
 }); 
 </script> 
  
-<?= $this->endSection() ?> 
+<?= $this->endSection() ?>

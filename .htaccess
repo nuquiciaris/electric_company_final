@@ -10,11 +10,15 @@ Options -Indexes
 <IfModule mod_rewrite.c>
 	Options +FollowSymlinks
 	RewriteEngine On
+	# The project is installed at the XAMPP document root; block source and database files.
+	RewriteRule ^(app|system|vendor|writable|tests|database)/ - [F,L,NC]
+	RewriteRule ^(electriccompany\.sql|cleanup_after_testing\.sql|composer\.(json|lock)|spark|env|\.env|README\.md|phpunit\.xml\.dist)$ - [F,L,NC]
 
 	# If you installed CodeIgniter in a subfolder, you will need to
 	# change the following line to match the subfolder you need.
 	# http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
 	# RewriteBase /
+	RewriteBase /CedrickValera_IT0049/electric_demo/
 
 	# Redirect Trailing Slashes...
 	RewriteCond %{REQUEST_FILENAME} !-d

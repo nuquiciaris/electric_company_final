@@ -13,10 +13,7 @@ industrial needs</p>
             </div> 
         </div> 
     </div> 
-</section> 
- 
- 
-<!-- Services Overview --> 
+</section><!-- Services Overview --> 
 <section class="section-padding"> 
     <div class="container"> 
         <div class="row text-center mb-5"> 
@@ -45,8 +42,7 @@ efficiency, and comfort for your family.</p>
         <div class="row g-4"> 
             <div class="col-lg-4 col-md-6"> 
                 <div class="card h-100 p-4 feature-item"> 
- 
-                    <div class="feature-icon"> 
+<div class="feature-icon"> 
                         <i class="fas fa-plug"></i> 
                     </div> 
                     <h4 class="text-primary-custom mb-3">Electrical Wiring</h4> 
@@ -75,8 +71,7 @@ increased power demands and improve home safety and efficiency.</p>
                         <li><i class="fas fa-check text-success me-2"></i>GFCI installations</li> 
                     </ul> 
                 </div> 
- 
-            </div> 
+ </div> 
             <div class="col-lg-4 col-md-6"> 
                 <div class="card h-100 p-4 feature-item"> 
                     <div class="feature-icon"> 
@@ -104,9 +99,7 @@ automated controls, and IoT device integration for modern living.</p>
                     <ul class="list-unstyled text-muted small"> 
                         <li><i class="fas fa-check text-success me-2"></i>Smart switches & outlets</li> 
                         <li><i class="fas fa-check text-success me-2"></i>Home automation systems</li> 
-                        <li><i class="fas fa-check text-success me-2"></i>Voice control integration</li> 
-
-                        <li><i class="fas fa-check text-success me-2"></i>Energy monitoring</li> 
+                        <li><i class="fas fa-check text-success me-2"></i>Voice control integration</li>    <li><i class="fas fa-check text-success me-2"></i>Energy monitoring</li> 
                     </ul> 
                 </div> 
             </div> 
@@ -135,8 +128,7 @@ and efficient home charging of your electric vehicle.</p>
                     <p class="text-muted mb-3">Quick and reliable electrical repair services for outlets, 
 switches, fixtures, and other electrical components in your home.</p> 
                     <ul class="list-unstyled text-muted small"> 
-
-                        <li><i class="fas fa-check text-success me-2"></i>Outlet & switch repairs</li> 
+ <li><i class="fas fa-check text-success me-2"></i>Outlet & switch repairs</li> 
                         <li><i class="fas fa-check text-success me-2"></i>Fixture installations</li> 
                         <li><i class="fas fa-check text-success me-2"></i>Troubleshooting</li> 
                         <li><i class="fas fa-check text-success me-2"></i>Emergency repairs</li> 
@@ -164,9 +156,7 @@ spaces, and industrial facilities.</p>
                 <div class="card h-100 p-4 feature-item"> 
                     <div class="feature-icon"> 
                         <i class="fas fa-industry"></i> 
-                    </div> 
- 
-                    <h4 class="text-primary-custom mb-3">Commercial Wiring</h4> 
+                    </div><h4 class="text-primary-custom mb-3">Commercial Wiring</h4> 
                     <p class="text-muted mb-3">Complete electrical installations for new commercial 
 buildings, tenant improvements, and electrical system expansions.</p> 
                     <ul class="list-unstyled text-muted small"> 
@@ -194,9 +184,7 @@ electrical infrastructure for commercial and industrial facilities.</p>
                 </div> 
             </div> 
             <div class="col-lg-4 col-md-6"> 
-                <div class="card h-100 p-4 feature-item"> 
-
-                    <div class="feature-icon"> 
+                <div class="card h-100 p-4 feature-item">    <div class="feature-icon"> 
                         <i class="fas fa-video"></i> 
                     </div> 
                     <h4 class="text-primary-custom mb-3">Security & Data Systems</h4> 
@@ -224,9 +212,7 @@ warehouses, and industrial operations.</p>
                         <li><i class="fas fa-check text-success me-2"></i>High-bay lighting</li> 
                         <li><i class="fas fa-check text-success me-2"></i>Power factor correction</li> 
                     </ul> 
-                </div> 
-
-            </div> 
+                </div> </div> 
             <div class="col-lg-4 col-md-6"> 
                 <div class="card h-100 p-4 feature-item"> 
                     <div class="feature-icon"> 
@@ -254,9 +240,7 @@ improvements to reduce operating costs and improve performance.</p>
                     <ul class="list-unstyled text-muted small"> 
                         <li><i class="fas fa-check text-success me-2"></i>Energy audits</li> 
                         <li><i class="fas fa-check text-success me-2"></i>LED retrofits</li> 
-                        <li><i class="fas fa-check text-success me-2"></i>Power quality analysis</li> 
-
-                        <li><i class="fas fa-check text-success me-2"></i>Demand management</li> 
+                        <li><i class="fas fa-check text-success me-2"></i>Power quality analysis</li> <li><i class="fas fa-check text-success me-2"></i>Demand management</li> 
                     </ul> 
                 </div> 
             </div> 
@@ -284,9 +268,7 @@ and energy costs with cutting-edge solar technology.</p>
                             <div class="feature-icon mx-0"> 
                                 <i class="fas fa-sun"></i> 
                             </div> 
-                        </div> 
-
-                        <div class="col-md-9"> 
+                        </div>   <div class="col-md-9"> 
                             <h4 class="text-primary-custom mb-2">Solar Panel Installation</h4> 
                             <p class="text-muted mb-3">Complete solar photovoltaic system design and 
 installation for residential and commercial properties.</p> 
@@ -314,9 +296,7 @@ installation for residential and commercial properties.</p>
 provide backup power during outages.</p> 
                             <ul class="list-unstyled text-muted small"> 
                                 <li><i class="fas fa-check text-success me-2"></i>Battery system design</li> 
-                                <li><i class="fas fa-check text-success me-2"></i>Backup power solutions</li> 
- 
-                                <li><i class="fas fa-check text-success me-2"></i>Grid-tie with battery backup</li> 
+                                <li><i class="fas fa-check text-success me-2"></i>Backup power solutions</li><li><i class="fas fa-check text-success me-2"></i>Grid-tie with battery backup</li> 
                                 <li><i class="fas fa-check text-success me-2"></i>Energy management 
 systems</li> 
                             </ul> 
@@ -345,8 +325,7 @@ to determine the best renewable energy solutions.</p>
                         </div> 
                     </div> 
                 </div> 
-
-            </div> 
+</div> 
             <div class="col-lg-6"> 
                 <div class="card h-100 p-4 feature-item"> 
                     <div class="row g-0 align-items-center"> 
@@ -374,9 +353,7 @@ ensure optimal performance of your solar energy system.</p>
 </section> 
  
 <!-- Emergency Services --> 
-<section class="section-padding bg-danger text-white"> 
-
-    <div class="container"> 
+<section class="section-padding bg-danger text-white"> <div class="container"> 
         <div class="row text-center"> 
             <div class="col-lg-8 mx-auto"> 
                 <h2 class="display-5 fw-bold mb-4"> 
@@ -404,9 +381,7 @@ response team is available 24/7 to handle urgent electrical issues and ensure yo
                             <i class="fas fa-zap text-warning mb-3" style="font-size: 3rem;"></i> 
                             <h4>Electrical Faults</h4> 
                             <p>Emergency repairs for dangerous electrical conditions</p> 
-                        </div> 
-
-                    </div> 
+                        </div>    </div> 
                 </div> 
                 <div class="mt-5"> 
                     <a href="tel:5551234567" class="btn btn-warning btn-lg me-3"> 
@@ -434,9 +409,7 @@ services from consultation to completion.</p>
                 <div class="text-center feature-item"> 
                     <div class="process-step bg-primary text-white rounded-circle d-flex align-items-center 
 justify-content-center mx-auto mb-3" style="width: 80px; height: 80px;"> 
-                        <span class="h3 mb-0">1</span> 
- 
-                    </div> 
+                        <span class="h3 mb-0">1</span></div> 
                     <h4 class="text-primary-custom mb-3">Consultation</h4> 
                     <p class="text-muted">Free consultation to understand your needs and provide expert 
 recommendations</p> 
@@ -465,9 +438,7 @@ materials and equipment</p>
                 </div> 
             </div> 
             <div class="col-lg-3 col-md-6"> 
-                <div class="text-center feature-item"> 
- 
-                    <div class="process-step bg-primary text-white rounded-circle d-flex align-items-center 
+                <div class="text-center feature-item"><div class="process-step bg-primary text-white rounded-circle d-flex align-items-center 
 justify-content-center mx-auto mb-3" style="width: 80px; height: 80px;"> 
                         <span class="h3 mb-0">4</span> 
                     </div> 
@@ -496,9 +467,7 @@ Quote</a>
                 <a href="tel:5551234567" class="btn btn-outline-primary btn-lg"> 
                     <i class="fas fa-phone me-2"></i>Call Now 
                 </a> 
-            </div> 
-
-</div> 
+            </div></div> 
 </div> 
 </section> 
 <?= $this->endSection() ?>

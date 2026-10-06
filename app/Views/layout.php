@@ -3,16 +3,14 @@
 <head> 
 <meta charset="UTF-8"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title><?= isset($title) ? $title : 'Puihaha Electric' ?></title> 
+<title><?= esc($title ?? 'Puihaha Electric') ?></title> 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
 rel="stylesheet"> 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
 rel="stylesheet"> 
 <link href="<?= base_url('assets/css/custom.css') ?>" rel="stylesheet"> 
 <style> 
-:root { 
-
-            --primary-color: #1e40af; 
+:root {    --primary-color: #1e40af; 
             --secondary-color: #f59e0b; 
             --accent-color: #10b981; 
             --dark-color: #1f2937; 
@@ -41,8 +39,7 @@ rel="stylesheet">
         } 
          
         .navbar-nav .nav-link.active { 
-
-            color: var(--primary-color) !important; 
+       color: var(--primary-color) !important; 
             font-weight: 600; 
         } 
          
@@ -70,9 +67,7 @@ rel="stylesheet">
         .btn-outline-light { 
             border-width: 2px; 
             font-weight: 600; 
-            padding: 12px 30px; 
-
-            border-radius: 25px; 
+            padding: 12px 30px;     border-radius: 25px; 
             transition: all 0.3s ease; 
         } 
          
@@ -100,9 +95,7 @@ rel="stylesheet">
             display: flex; 
             align-items: center; 
             justify-content: center; 
-            margin: 0 auto 20px; 
- 
-            color: white; 
+            margin: 0 auto 20px;  color: white; 
             font-size: 2rem; 
         } 
          
@@ -130,9 +123,7 @@ rel="stylesheet">
         .social-icons a { 
             display: inline-block; 
             width: 40px; 
-            height: 40px; 
-
-            background-color: var(--primary-color); 
+            height: 40px;      background-color: var(--primary-color); 
             color: white; 
             text-align: center; 
             line-height: 40px; 
@@ -160,9 +151,7 @@ rel="stylesheet">
          
         .bg-light-custom { 
             background-color: var(--light-color) !important; 
-        } 
-
-    </style> 
+        } </style> 
      
 </head> 
 <body> 
@@ -190,15 +179,26 @@ base_url('about') ?>">About</a>
                         <a class="nav-link <?= (isset($page) && $page == 'services') ? 'active' : '' ?>" href="<?= 
 base_url('services') ?>">Services</a> 
                     </li> 
-                    <li class="nav-item"> 
-
-                        <a class="nav-link <?= (isset($page) && $page == 'contact') ? 'active' : '' ?>" href="<?= 
+                    <li class="nav-item"> <a class="nav-link <?= (isset($page) && $page == 'contact') ? 'active' : '' ?>" href="<?= 
 base_url('contact') ?>">Contact</a> 
                     </li> 
+                    <?php if (session()->get('isLoggedIn') === true): ?>
+                    <li class="nav-item"><a class="nav-link" href="<?= base_url('accounts') ?>">Accounts</a></li>
+                    <li class="nav-item"><form action="<?= base_url('logout') ?>" method="post" class="d-inline"><?= csrf_field() ?><button class="nav-link border-0 bg-transparent" type="submit">Sign out</button></form></li>
+                    <?php else: ?>
                     <li class="nav-item"> 
                         <a class="nav-link <?= (isset($page) && $page == 'register') ? 'active' : '' ?>" href="<?= 
 base_url('register') ?>">Register</a> 
                     </li> 
+                    <li class="nav-item">
+                        <a
+                            class="nav-link <?= (isset($page) && $page === 'login') ? 'active' : '' ?>"
+                            href="<?= base_url('login') ?>"
+                        >
+                            Login
+                        </a>
+                    </li>
+                    <?php endif; ?>
                 </ul> 
             </div> 
         </div> 
@@ -221,9 +221,7 @@ Your trusted partner for all electrical needs.</p>
                         <a href="#"><i class="fab fa-facebook-f"></i></a> 
                         <a href="#"><i class="fab fa-twitter"></i></a> 
                         <a href="#"><i class="fab fa-linkedin-in"></i></a> 
-                        <a href="#"><i class="fab fa-instagram"></i></a> 
-
-                    </div> 
+                        <a href="#"><i class="fab fa-instagram"></i></a></div> 
                 </div> 
                 <div class="col-lg-2 col-md-6 mb-4"> 
                     <h5>Quick Links</h5> 
@@ -251,9 +249,7 @@ Your trusted partner for all electrical needs.</p>
                         <li><i class="fas fa-phone me-2"></i>(555) 123-4567</li> 
                         <li><i class="fas fa-envelope me-2"></i>info@Puihahaelectric.com</li> 
                         <li><i class="fas fa-clock me-2"></i>24/7 Emergency Service</li> 
-                    </ul> 
-
-                </div> 
+                    </ul>   </div> 
             </div> 
             <hr class="my-4"> 
             <div class="row align-items-center"> 
@@ -282,8 +278,7 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
         }); 
          
         // Add animation on scroll 
-
-        const observerOptions = { 
+      const observerOptions = { 
             threshold: 0.1, 
             rootMargin: '0px 0px -50px 0px' 
         }; 
@@ -306,4 +301,4 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.j
         }); 
     </script> 
 </body> 
-</html> 
+</html>
