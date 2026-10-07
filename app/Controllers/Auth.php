@@ -27,15 +27,14 @@ class Auth extends BaseController
 
     public function login()
     {
-        $username = strtolower(trim((string) $this->request->getPost('username')));
+        $email = strtolower(trim((string) $this->request->getPost('username')));
         $password = (string) $this->request->getPost('password');
 
-        if ($username === '' || $password === '') {
+        if ($email === '' || $password === '') {
             return redirect()->back()->withInput()->with('error', 'Username and password are required.');
         }
 
-        $user = $this->userAccounts->where('username', $username)->first();
-
+            $user = $this->userAccounts->where('email', $email)->first();        
         if (! $user || ! password_verify($password, $user['password'])) {
             return redirect()->back()->withInput()->with('error', 'Invalid username or password.');
         }
@@ -45,8 +44,8 @@ class Auth extends BaseController
             'isLoggedIn'   => true,
             'logged_in'    => true,
             'user_id'      => $user['id'],
-            'username'     => $user['username'],
-            'display_name' => $user['username'],
+            'username'     => $user['email'],
+            'display_name' => $user['first_name'] . ' ' . $user['last_name'],
         ]);
 
         return redirect()->to(base_url('accounts'));

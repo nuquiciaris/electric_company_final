@@ -6,8 +6,22 @@ use CodeIgniter\Model;
 
 class UserAccount extends Model
 {
-    protected $table = 'user_accounts';
+    protected $table = 'users';
     protected $primaryKey = 'id';
     protected $returnType = 'array';
-    protected $allowedFields = ['username', 'password'];
+
+    protected $allowedFields = [
+        'first_name',
+        'last_name',
+        'email',
+        'phone',
+        'address',
+        'city',
+        'state',
+        'zip_code',
+        'password',
+        'user_type',
+        'is_active',
+        'email_verified',
+    ];
 }
